@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container{
+background-color: grey;
+display: flex;
+/* acts on the main-axis */
+justify-content:center;
+/* acts on the cross-axis */
+align-items: end;
+height: 500px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    margin: 2%;
+   
+}
+.box:nth-of-type(1)
+{
+   
+
+}
+.box:nth-of-type(2)
+{
+
+}
+.box:nth-of-type(3)
+{
+
+
+}
+
+
